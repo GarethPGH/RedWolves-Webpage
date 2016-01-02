@@ -1,0 +1,40 @@
+﻿@model RedWolves.Models.Canines
+
+@{
+    ViewBag.Title = "Details";
+}
+<head>
+    <title>Canine</title>
+   
+</head>
+<h2>Details</h2>
+<body>
+    <div>
+        <p>Sample Text</p>
+
+        <h4>Canines</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.canineName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.canineName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.description)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.description)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.canineID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>

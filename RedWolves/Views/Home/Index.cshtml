@@ -1,0 +1,66 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<head>
+    <title>A Plea for Red Wolves</title>
+
+    <script type="text/javascript">
+    window.onload = function () { animalpagination(); };
+    </script>
+
+   
+    <link rel="stylesheet" type="text/css" href="Site.css">
+    <script src="~/animalpagination.js" type="text/javascript"></script>
+   
+
+</head>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <header>
+                    <h1>A Plea for Red Wolves</h1>
+                    <!--image for background, eyes of the red wolf-->
+                </header>
+            </div>
+        </div>
+    </div>
+    <div>
+        <section id="intro">
+          <p>A page to show the differences in 3 types of wild canines in the USA</p>
+        </section>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="span10 offset3">
+                <nav>
+                    <ul class="pagination">
+                     <!--This should be kind of like a nav page, but presents views in a tabbed document, kind of like IFrame minus the Iframe-->
+                        <li class="animalbutton active" data-id="1" rel="redwolf"><a href='#'>Red Wolves</a></li>
+                        <li class="animalbutton" data-id="2" rel="graywolf"><a href='#'>Gray Wolves</a></li>
+                        <li class="animalbutton" data-id="3" rel="coyote"><a href='#'>Coyotes</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="animal active" id="redwolf">
+            <section>
+                <h2><!--CanineName--></h2>
+                <p>
+                   <!--Figure out how to pull data from the Model to display on tabs to reduce amount of code needed-->
+                </p> 
+            </section>
+        </div>
+    </div>
+        
+    <footer>
+        <!--summary links, scientific paper citations and credit for the images-->
+    </footer>
+    <!--possible include  a form for comments and questions-->
+
+

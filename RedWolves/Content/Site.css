@@ -1,0 +1,44 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color:cornflowerblue !important;
+}
+
+.jumbotron 
+{
+    background-color: aquamarine;
+    /*mess with height tomorrow*/
+}
+
+
+
+h1 {
+    font-size: medium;
+    text-align: center;
+}
+
+
+.animabutton#pagination {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.animal{
+    visibility:hidden;
+}
+
+.animal.active{
+    
+    visibility:visible;
+}
+
+
+/*the deior where horizontal description lists will truncate terms that are too long to fit in the left column */ .dl-horizontal dt;
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
